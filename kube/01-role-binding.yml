@@ -3,10 +3,12 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: traefik-role-binding
 
+# `roleRef` refers to the role we created in the RBAC role
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
   name: traefik-role
+# `subjects` refers to the list of the service account created
 subjects:
   - kind: ServiceAccount
     name: traefik-account
