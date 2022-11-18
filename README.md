@@ -1,4 +1,4 @@
-# Traefik Proxy on K8s
+# Proxy Wizard
 
 This repo contains the resource files to launch Traefik Proxy on a Kubernetes cluster.
 
