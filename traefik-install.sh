@@ -9,14 +9,14 @@ echo "Creating Kubernetes resources for Traefik under ./traefik/..."
 
 mkdir traefik
 
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/00-role.yml > traefik/traefik-rbac-role.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/00-account.yml > traefik/traefik-service-account.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/01-role-binding.yml > traefik/traefik-role-binding.yml
-curl -s  https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/02-traefik.yml > traefik/traefik-deployment.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/02-traefik-services.yml > traefik/traefik-services.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/03-whoamI-services.yml > traefik/traefik-app-services.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/03-whoami.yml > traefik/traefik-app-deployment.yml
-curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-scripts/main/kube/04-whoami-ingress.yml > traefik/traefik-app-ingress.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/00-role.yml > traefik/traefik-rbac-role.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/00-account.yml > traefik/traefik-service-account.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/01-role-binding.yml > traefik/traefik-role-binding.yml
+curl -s  https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/02-traefik.yml > traefik/traefik-deployment.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/02-traefik-services.yml > traefik/traefik-services.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/03-whoamI-services.yml > traefik/traefik-app-services.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/03-whoami.yml > traefik/traefik-app-deployment.yml
+curl -s https://raw.githubusercontent.com/VirtuaCreative/traefik-wizard/main/kube/04-whoami-ingress.yml > traefik/traefik-app-ingress.yml
 
 echo "Applying the new resources to your cluster..."
 
