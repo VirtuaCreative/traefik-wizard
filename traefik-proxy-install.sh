@@ -5,7 +5,7 @@ TADA='\360\237\216\211'
 
 printf "Hello, $USER! $WAVE \n"
 echo "Welcome to the Proxy Wizard! Let's make some magic!"
-echo "Creating Kubernetes resources for Traefik under ./traefik/..."
+echo "Creating Kubernetes resources for Traefik Proxy under ./traefik/..."
 
 mkdir traefik
 
@@ -29,17 +29,5 @@ kubectl apply -f traefik/traefik-rbac-role.yml \
               -f traefik/traefik-app-deployment.yml \
               -f traefik/traefik-app-ingress.yml
 
-TF_PR_DS=$(kubectl get services | grep traefik-dashboard-service | cut -d " " -f 1)
-HELLOWORLD=$(kubectl get services | grep hello-world | cut -d " " -f 1)
-
+echo "The `tput bold`traefik-dashboard-service`tput sgr0` and the `tput bold`hello-world`tput sgr0` service should be up and running. Check them out..."
 echo `tput bold`"$ kubectl get services"`tput sgr0` ; kubectl get services
-
-if [[ TF_PR_DS=="traefik-dashboard-service" ]]; then
-    echo `tput bold`"Traefik Proxy Dashboard"`tput sgr0` "is up and running."
-    if [[ HELLOWORLD=="hello-world" ]]; then
-        echo `tput bold`"hello-world"`tput sgr0` "is up and running."
-    fi
-    printf `tput bold`"You're good to go! Woot! $TADA \n"`tput sgr0`
-else
-    echo "Something went wrong. Please try the manual method."
-fi 
