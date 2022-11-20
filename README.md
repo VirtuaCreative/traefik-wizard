@@ -13,4 +13,9 @@ Usage: TBA.
 
 I might add other resource files and scripts in the future.
 
+Uses this app as example:
+
+- [Docker image](https://hub.docker.com/r/ramosmd/html-hello-world)
+- [GH repo](https://github.com/VirtuaCreative/html-hello-world)
+
 ENV: Minikube v1.28.0 / Docker 20.10.20 / Kubernetes v1.25.3 / kubectl v1.25.4 / Darwin 13.0.1
