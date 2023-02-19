@@ -1,21 +1,39 @@
 # Proxy Wizard
 
-This repo contains the resource files to launch Traefik Proxy on a Kubernetes cluster
-and a script to copy the files and apply them at once.
+Proxy Wizard was created to launch [Traefik Proxy](https://traefik.io/traefik/) on a Kubernetes cluster by running one single script.
 
-For now, to make our lives easier, instead of having to copy and paste all the resource
+## Why Proxy Wizard
+
+Instead of having to copy and paste all the resource
 files manually from the [official docs](https://doc.traefik.io/traefik/getting-started/quick-start-with-kubernetes/)
 to launch Traefik Proxy Dashboard and to use it as a reverse proxy to a web app,
-I created a very simple script to copy the files into a directory of our
-choice and apply them to an exixting cluster.
+run a script to copy the files into a directory of our
+choice and apply them to an existing cluster.
 
-Usage: TBA.
+## Requirements
 
-I might add other resource files and scripts in the future.
+On your computer, you need:
 
-Uses this app as example:
+- Docker installed.
+- A Kubernetes cluster to install the Traefik Proxy on.
+
+For some environments, you may need unforeseen dependencies. The environment that this process works seamlessly is:
+
+- Darwin 13.0. - 13.1
+- Minikube v1.28.0 - v1.29.0
+- Docker 20.10.20 - 20.10.22
+- Kubernetes v1.25.3 - v1.26.1
+- kubectl v1.25.4
+
+## How to
+
+Read the [documentation](docs/install.md).
+
+## Going forward
+
+Once installed, you can customize the resource files according to your needs.
+
+## Assets
 
 - [Docker image](https://hub.docker.com/r/ramosmd/html-hello-world)
 - [GH repo](https://github.com/VirtuaCreative/html-hello-world)
-
-ENV: Minikube v1.28.0 / Docker 20.10.20 / Kubernetes v1.25.3 / kubectl v1.25.4 / Darwin 13.0.1
