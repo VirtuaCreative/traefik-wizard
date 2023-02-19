@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: ramosmd/html-hello-world:v2
+          image: ramosmd/html-hello-world:latest
           ports:
             - name: web
               containerPort: 80
