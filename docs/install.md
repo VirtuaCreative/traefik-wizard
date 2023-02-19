@@ -17,6 +17,9 @@ Instead of doing all of that manually, with Proxy Wizard you can do it by runnin
 
 ## Install Traefik Proxy
 
+Before getting started, consider watching this [video](https://www.youtube.com/watch?v=JaTITCVcUn0)
+with the walk-through.
+
 1. Open the terminal in your cluster's directory where you wish
 to add Traefik's resource files.
 1. Start Docker.

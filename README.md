@@ -11,12 +11,16 @@ to launch Traefik Proxy Dashboard and to use it as a reverse proxy to a web appl
 run a single script to copy the files into a directory of our
 choice and apply them to an existing cluster.
 
+## How to
+
+Read the [documentation](docs/install.md) and/or watch the [video tutorial](https://youtu.be/JaTITCVcUn0).
+
 ## Requirements
 
 On your computer, you need:
 
 - Docker installed.
-- A Kubernetes cluster to install the Traefik Proxy on.
+- A Kubernetes cluster.
 
 Working environment:
 
@@ -27,10 +31,6 @@ Working environment:
 - kubectl v1.25.4
 
 For other configurations, you may need other dependencies.
-
-## How to
-
-Read the [documentation](docs/install.md).
 
 ## Going forward
 
