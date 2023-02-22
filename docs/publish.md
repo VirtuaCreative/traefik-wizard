@@ -19,5 +19,5 @@ With a free account you can create one agent only.
 To get started:
 
 1. Follow the tutorial [Launch Traefik Proxy in a Kubernetes cluster with Proxy Wizard](install.md). It's also
-available in a video walk-through](https://www.youtube.com/watch?v=JaTITCVcUn0).
+available in a [video walk-through](https://www.youtube.com/watch?v=JaTITCVcUn0).
 1. Watch the video tutorial on [how to publish a Kubernetes web application for free with Traefik Hub](https://youtu.be/toWxWTw2tEY).

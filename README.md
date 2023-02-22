@@ -35,3 +35,6 @@ For other configurations, you may need other dependencies.
 ## Going forward
 
 Once installed, you can customize the resource files according to your needs.
+
+You can take one step ahead and publish your app to the internet for free. :D
+Read the [intro](publish.md) and/or watch the [video tutorial](https://youtu.be/toWxWTw2tEY).
