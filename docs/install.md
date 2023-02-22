@@ -79,7 +79,8 @@ Check the [Traefik Proxy documentation](https://doc.traefik.io/traefik/) for det
 ## Publish your application
 
 You can use [Traefik Hub](https://doc.traefik.io/traefik-hub/) to publish your Kubernetes application to the
-web with no hassle. It's fast and no credit card required (so far).
+web in [a few steps](publish.md). Watch a follow-up [video tutorial](https://youtu.be/toWxWTw2tEY)
+to learn how to do it.
 
 ## Assets
 
