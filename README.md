@@ -13,7 +13,8 @@ choice and apply them to an existing cluster.
 
 ## How to
 
-Read the [documentation](docs/install.md) and/or watch the [video tutorial](https://youtu.be/JaTITCVcUn0).
+Read the [tutorial](https://github.virtuacreative.com.br/tutorials/posts/traefik-proxy-with-proxy-wizard/)
+and/or watch the [video walk-through](https://youtu.be/JaTITCVcUn0).
 
 ## Requirements
 
